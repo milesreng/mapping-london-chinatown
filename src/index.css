@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-stone-900 text-stone-50
+}
+
+.navbar a {
+  @apply text-stone-50 hover:text-yellow-400 font-thin transition-all hover:font-bold 
+}
+
+.img-caption {
+  @apply text-right text-sm pt-1 w-full text-stone-300
+}
+
+.book-cover-img {
+  @apply h-full object-cover border-2
+}
+
+.vertical-timeline-element-content {
+  background-color: #fafaf9 !important;
+}
+
+.vertical-timeline-element-date {
+  font-size: 24px !important;
+  margin: auto;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin-top: -12px !important;
+}
+
+.paragraph-section {
+  @apply min-h-[40vh] w-3/4 mx-auto p-8
+}
